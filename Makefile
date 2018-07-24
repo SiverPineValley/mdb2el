@@ -1,4 +1,4 @@
-LIB = -L "C:\Users\Park\Anaconda3\libs" -I "C:\Users\Park\Anaconda3\include" -lpython36
+LIB = -L "C:\Users\UserName\Anaconda3\libs" -I "C:\Users\UserName\Anaconda3\include" -lpython36
 
 mdb2el : mdb2el.o ini.o
 	gcc -lm -o $@ $< ini.o $(LIB)
